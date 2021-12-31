@@ -1,7 +1,13 @@
 # Optimal-portfolio-with-FTX-data
 
 ## Usage
-Run `python portfolio.py`.
+In this directory, create a file named `api_keys.py` that contains the following two lines:
+```
+API_KEY = 'your_api_key'
+API_SECRET = 'your_api_secret'
+```
+
+Then run `python portfolio.py`.
 
 ## Explanation
 The script does the following:
@@ -19,8 +25,5 @@ The script does the following:
 ![efficient frontier](efficient_frontier.png?raw=true)
 
 ## Requirements
-In this directory, create a file named `api_keys.py` that contains the following two lines:
-```
-API_KEY = 'your_api_key'
-API_SECRET = 'your_api_secret'
-```
+* numpy
+* matplotlib
